@@ -1,2 +1,6 @@
-*.log
-*.tmp
+**/node_modules
+**/.git
+**/*.log
+Dockerfile
+.dockerignore
+README.md
