@@ -3,7 +3,7 @@ FROM golang:1.22 AS builder
 WORKDIR /app
 
 # Copia archivos para dependencias
-RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf
+#RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf
 
 COPY go.mod go.sum ./
 RUN go mod download
